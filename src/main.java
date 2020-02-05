@@ -5,6 +5,7 @@ public class main {
 
         System.out.println(a + " + " + b + " = " + sum(a,b));
         System.out.println(a + " - " + b + " = " + subtract(a,b));
+        System.out.println(a + " * " + b + " = " + mul(a,b));
     }
 
     public static double sum(double a, double b){
@@ -13,5 +14,9 @@ public class main {
 
     public static double subtract(double a, double b){
         return a - b;
+    }
+
+    public static double mul(double a, double b){
+        return a * b;
     }
 }
