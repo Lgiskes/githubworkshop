@@ -4,9 +4,14 @@ public class main {
         double b = 3.9;
 
         System.out.println(a + " + " + b + " = " + sum(a,b));
+        System.out.println(a + " - " + b + " = " + subtract(a,b));
     }
 
     public static double sum(double a, double b){
         return a + b;
+    }
+
+    public static double subtract(double a, double b){
+        return a - b;
     }
 }
